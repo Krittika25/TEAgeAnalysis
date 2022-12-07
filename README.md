@@ -11,7 +11,7 @@ The input and output files can be accessed on the HPC cluster- /nobackup/cooper_
 
 ### Steps:
 1. Run TE-greedy-nester on the scaffold data.
-The data is generated per chromosome. This data was concatenated into a single file before proceeding to the next step.
+The output is generated per chromosome. This data was concatenated into a single file before proceeding to the next step.
 
 2. Filter out only the Right and Left ends for each TE id from TE-greedy-nester output.
 
