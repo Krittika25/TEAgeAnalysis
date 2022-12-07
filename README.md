@@ -5,6 +5,7 @@ This repository contains information on performing age analysis on transposable 
 Transposable element (TE) age analysis is performed by comparing the 5' and 3' terminal repeat regions to look for sequence divergence.
 
 To annotate the TE structure, TE-greedy-nester tool was used. Information on this tool can be accessed at https://gitlab.fi.muni.cz/lexa/nested
+The tool was installed within a conda environment in the local directory.
 
 The input and output files can be accessed on the HPC cluster- /nobackup/cooper_research/krittikak/nester_output
 
