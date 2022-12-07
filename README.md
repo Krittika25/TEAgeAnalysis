@@ -8,7 +8,7 @@ To annotate the TE structure, TE-greedy-nester tool was used. Information on thi
 
 The input and output files can be accessed on the HPC cluster- /nobackup/cooper_research/krittikak/nester_output
 
-###Steps:
+### Steps:
 1. Run TE-greedy-nester on the scaffold data.
 The data is generated per chromosome. This data was concatenated into a single file before proceeding to the next step.
 
