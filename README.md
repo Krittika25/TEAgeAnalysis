@@ -16,7 +16,7 @@ The output is generated per chromosome. This data was concatenated into a single
 2. Filter out only the Right and Left ends for each TE id from TE-greedy-nester output.
 
 3. Get the FASTA sequences for the right and left ends- used bedtools getfasta. 
-The FASTA headers were renamed to contain the TE pair ids.
+The FASTA headers were renamed to contain the TE pair ids - custom python script get_headers.py used.
 
 4. Right and Left pairs were split into their own fasta files for performing pairwise alignment- custom perl script get_LTR_pairs.pl used.
 
